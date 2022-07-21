@@ -1,0 +1,255 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.bg-grey {
+  background: #f7f7f7;
+}
+
+section > .container {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 30px 40px;
+  overflow: auto;
+}
+
+#nav-bar {
+  text-align: center;
+}
+
+/*  */
+body {
+  font-family: sans-serif;
+  color: #343a40;
+  line-height: 1.6;
+}
+
+/* header */
+header {
+  /* height: 50vh;
+  background-color: #343a40;
+  background-image: linear-gradient(
+      rgba(34, 34, 34, 0.6),
+      rgba(34, 34, 34, 0.6)
+    ),
+    url("../images/banner.jpg");
+  background-size: cover; */
+}
+#banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background-color: #343a40;
+  background-image: linear-gradient(
+      rgba(34, 34, 34, 0.6),
+      rgba(34, 34, 34, 0.6)
+    ),
+    url("../images/banner.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#banner h1 {
+  font-size: 56px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 16px;
+  color: #fff;
+}
+#banner span {
+  font-size: 16px;
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/* navigation */
+#nav-bar {
+  height: auto;
+}
+#nav-bar .container {
+  padding: 0 40px;
+}
+.nav-infor a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+}
+#navbar p {
+  margin: 0;
+}
+
+/* about - thông tin */
+#about {
+  background: linear-gradient(to right, #f7f7f7 50%, #efefef 50%);
+}
+.grid-2 {
+  margin: 32px 0;
+}
+.target {
+  padding: 32px;
+}
+.personal-info {
+  padding: 32px;
+}
+.section-title {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 44px;
+}
+.target p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+.mt-40 {
+  font-size: 14px;
+  line-height: 1.5;
+  padding-left: 0;
+  margin-bottom: 24px;
+  list-style: none;
+}
+.mt-40 span {
+  font-weight: bold;
+}
+
+/* job-info - thông tin nghề nghiệp*/
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 24px;
+  row-gap: 24px;
+}
+.list {
+  border: 2px solid #f7f7f7;
+  padding: 24px;
+  height: fit-content;
+}
+.skill {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+.skill i {
+  font-size: 42px;
+}
+.list-info {
+  list-style-position: outside;
+  list-style: none;
+  padding: 0;
+}
+.infor li {
+  list-style-position: inside;
+  list-style: none;
+  line-height: 1.5;
+}
+.list-info p {
+  font-size: 14px;
+  margin: 12px;
+  font-style: oblique;
+}
+.list-info time {
+  padding: 3px 12px;
+  border-radius: 6px;
+}
+.hobby i {
+  font-size: 25px;
+  padding: 10px 10px;
+  border: 1px solid rgb(72, 171, 189);
+  border-radius: 100%;
+  color: rgb(72, 171, 189);
+}
+.hobby {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  font-size: 12px;
+}
+.list-hobby {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+.list p {
+  margin-top: 12px;
+}
+.dots {
+  display: flex;
+  gap: 12px;
+  margin: 8px 0;
+}
+.dot {
+  width: 50px;
+  height: 4px;
+  background-color: rgb(72, 171, 189);
+  border: 1px solid rgb(72, 171, 189);
+  border-radius: 4px;
+}
+.dot-none {
+  width: 50px;
+  height: 4px;
+  background-color: #ececec;
+  border: 1px solid #e2e8ee;
+  border-radius: 4px;
+}
+.list-information {
+  display: flex;
+  gap: 12px;
+  margin-top: 24px;
+}
+.circle {
+  width: 8px;
+  height: 8px;
+  margin-top: 6px;
+  padding: 4px;
+  background-color: rgb(72, 171, 189);
+  border: 1px solid rgb(72, 171, 189);
+  border-radius: 100%;
+}
+
+/* certificate - chứng chỉ */
+#certificate h1 {
+  grid-column: 1/-1;
+}
+.certi li {
+  list-style: none;
+  list-style-position: inside;
+}
+
+/* project - dự án*/
+#project h1 {
+  grid-column: 1/-1;
+}
+.project {
+  border: 2px solid #f7f7f7;
+  height: auto;
+}
+.project h2 {
+  font-size: 16px;
+  padding: 12px;
+  border: 1px solid #f7f7f7;
+}
+.project time {
+  padding: 5px 10px;
+  border-radius: 16px;
+  font-size: 12px;
+}
+table {
+  line-height: 1.2;
+  color: #343a40;
+}
+table tr {
+  border: 1px solid #f7f7f7;
+  border-collapse: collapse;
+}
+table td {
+  text-align: left;
+  vertical-align: top;
+  padding: 10px 0;
+}
+.td-w {
+  width: 30%;
+}

@@ -1,0 +1,64 @@
+/* Desktop part */
+@media screen and (min-width: 992px) {
+  /* navigation */
+  .nav-flex {
+    display: flex;
+    flex: 1 1 0;
+    align-items: center;
+    justify-content: center;
+  }
+  .nav-infor {
+    width: 140px;
+    line-height: 70px;
+    align-self: center;
+    border: 1px solid rgba(150, 150, 150, 0.5);
+    border-bottom: none;
+    border-top: none;
+  }
+
+  /* about */
+  #about {
+    background: linear-gradient(to right, #f7f7f7 50%, #efefef 50%);
+  }
+  .grid-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* job-information */
+  .grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: auto; */
+    column-gap: 24px;
+    row-gap: 24px;
+  }
+
+  /* certificate */
+  .certi {
+    display: flex;
+    margin-bottom: 36px;
+    padding-right: 12px;
+    align-items: flex-start;
+    font-size: 13px;
+    gap: 32px;
+  }
+  .certi img{
+    width: 40%;
+    height: auto;
+  }
+  .certi-2 {
+    padding-left: 12px;
+    border-left: 1px solid rgb(214, 138, 111);
+  }
+  .certi-3,
+  .certi-4 {
+    padding-top: 12px;
+    border-top: 1px solid rgb(214, 138, 111);
+  }
+
+  /* project */
+  .project-info{
+    justify-content: space-between;
+  }
+}
